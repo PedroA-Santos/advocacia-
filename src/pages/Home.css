@@ -1,0 +1,251 @@
+/* SECTION HOME */
+
+.sectionHome {
+    background-image: url("https://blog.fametro.edu.br/wp-content/uploads/2022/05/branco-e-laranja-sombra-vozes-altas-para-justia-imagem-de-fundo-de-tela-4-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 400px;
+}
+
+.h2Home {
+    color: rgba(226, 185, 0, 0.7);
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.9);
+    font-size: 50px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: rgba(226, 185, 0, 0.7);
+    font-size: 80px;
+    cursor: pointer;
+    transition: color 0.5s;
+    margin-top: 80px;
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+
+
+/*FIM DA SEÇÃO HOME */
+
+
+
+
+
+.propositoSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+    background: linear-gradient(to bottom, rgb(117, 117, 117), rgb(255, 255, 255));
+    height: 100vh;
+}
+
+.imgProposito {
+    max-width: 500px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 4px 4px rgba(226, 185, 0, 0.7);
+    box-sizing: border-box;
+
+}
+
+.textoProposito {
+    max-width: 50%;
+}
+
+.textoProposito h2 {
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgba(226, 185, 0, 0.7);
+    text-decoration: underline;
+
+}
+
+.textoProposito p {
+    margin: 10px 0;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+}
+
+
+
+/*FIM DA SEÇÃO PROPÓSITO*/
+
+
+/* SEÇÃO INSPIRAÇÃO */
+
+.inspiracaoSection {
+    background: linear-gradient(to bottom, rgb(117, 117, 117), rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.textoInspiracao {
+    text-align: center;
+}
+
+.textoInspiracao h1 {
+    margin-top: 90px;
+    font-size: 40px;
+    text-shadow: 2px 1px rgba(226, 185, 0, 0.7);
+}
+
+.iconsProposito {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.iconsProposito div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.iconsProposito img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.iconsProposito p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 300px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* FIM DA SEÇÃO INSPIRAÇÃO */
+
+.pessoasContainer {
+    background-image: url("../img/aguiaBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoPessoas div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    background-color: white;
+}
+
+/*///////////*/
+
+
+.experienciaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(117, 117, 117), rgb(255, 255, 255));
+}
+
+.experienciaTitulo {
+    text-shadow: 2px 2px rgba(226, 185, 0, 0.7);
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.experienciaConteudo {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 18px;
+}
+
+.experienciaImagem {
+    margin-right: 20px;
+    width: 100%;
+    max-width: 400px; /* Ajuste conforme necessário */
+    height: auto;
+    border: 6px solid rgba(226, 185, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.experienciaTexto {
+    flex: 1;
+}
+
+
+/**/
+
+
+
+.contatoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f2f2f2; /* Cor de fundo opcional */
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+.contatoContainer img {
+    max-width: 150px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 20px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    
+}
+
+.infoContato {
+    max-width: 600px; /* Ajuste a largura conforme necessário */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 8px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.infoContato h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    text-shadow: 2px 2px rgba(226, 185, 0, 0.7);
+}

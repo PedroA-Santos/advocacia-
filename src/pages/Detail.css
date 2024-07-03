@@ -1,0 +1,67 @@
+.detailContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://patresecarvalho.adv.br/wp-content/uploads/2023/11/set-scales-desk-law-office-1024x512.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.detailContainer h1{
+    background-color: rgba(255,255,255,0.4);
+    margin: 10px;
+    border-radius: 10px;
+    text-shadow:2px 2px rgba(226, 185, 0, 0.7);
+    border: 4px solid white;
+}
+
+
+.detailContainer img{
+    max-width: 500px;
+    height: auto;
+    max-height: 600px;
+    border: 5px solid rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(226, 185, 0, 0.7);;
+  
+}
+
+.detailContainer h2{
+    padding: 8px;
+    color: black;
+    text-shadow: 3px 3px rgba(226, 185, 0, 0.7);
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    border: 4px solid rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.detailContainer p{
+    color: white;
+    font-size: 18px;
+}
+
+
+.detailContainer button{
+
+    width: 60%;
+    margin: 20px;
+    height: 50px;
+    background-color: rgba(226, 185, 0, 0.7);
+    font-weight: bold;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.detailContainer button:hover{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
